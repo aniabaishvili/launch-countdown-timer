@@ -57,7 +57,7 @@ p{
 }
 
 .seconds{
-   transform: translateX(10px);
+   transform: translateX(30px);
 }
 
 .hours{
