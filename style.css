@@ -109,5 +109,17 @@ p{
    .footer{
       transform: translateY(200px);
    }
+     .minutes{
+    padding-left: 20px;
+   }
 
+   .hours{
+    padding-left: 30px;
+   }
+
+   
+
+   .interval p{
+    font-size: 14px;
+   }
 }
