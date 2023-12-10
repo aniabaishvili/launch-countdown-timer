@@ -85,8 +85,14 @@ img:hover{
     cursor:pointer;
    filter:brightness(0) saturate(100%) invert(44%) sepia(92%) saturate(463%) hue-rotate(298deg) brightness(102%) contrast(97%)
 }
-
-
+#d,#h,#m,#s{
+    color:#FB5E84;
+    text-align: center;
+    letter-spacing: 1.4px;
+    line-height: 71px;
+    font-size: 20px;
+    font-weight: 700;
+}
 @media screen and (min-width:768px){
     h1{
         font-size: 22px;
@@ -125,4 +131,13 @@ img:hover{
    .interval p{
     font-size: 14px;
    }
-}
+
+      #d,#h,#m,#s{
+    color:#FB5E84;
+    text-align: center;
+    letter-spacing: -2.4px;
+    line-height: 71px;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 40px;
+}}
