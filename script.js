@@ -7,7 +7,7 @@ const countOfSeconds = document.getElementById("s");
 
 
 // Update the count down every 1 second
-var x = setInterval(function() {
+const x = setInterval(function() {
 
     // Get today's date and time
     const now = new Date().getTime();
