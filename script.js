@@ -23,10 +23,11 @@ var x = setInterval(function() {
   
   
     document.getElementById("d").innerHTML = days + "d " 
-    document.getElementById("h").innerHTML = days + "h"
-    document.getElementById("m").innerHTML = days + "m " 
-    document.getElementById("s").innerHTML = days + "s" 
-  
+    document.getElementById("h").innerHTML =  hours + "h "
+    document.getElementById("m").innerHTML = minutes + "m " 
+    document.getElementById("s").innerHTML = seconds + "s ";
+
+    
     // If the count down is finished, write some text 
     if (distance < 0) {
       clearInterval(x);
